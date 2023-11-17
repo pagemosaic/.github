@@ -1,2 +1,1 @@
-# .github
-Page Mosaic
+# Page Mosaic
