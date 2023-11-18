@@ -42,27 +42,23 @@ Develop platforms for exclusive clubs or communities where memberships grant spe
 #### Dynamic Website Rendering
 * The platform includes a dynamic website that updates content based on inputs in the Admin panel, offering a customizable and interactive user interface.
 
-## A breakdown of the key technical details and their implications
+## Technical Overview
+### AWS-Based Serverless Architecture
+* `Hosted on AWS:` Utilizing Amazon Web Services for reliable, scalable cloud infrastructure.
+* `Serverless Design:` Employs AWS services like Lambda, CloudFront, S3, and SES to create a serverless architecture, optimizing for efficiency and scalability.
 
-#### AWS Platform for Deployment:
+### Key AWS Services
+* `AWS Lambda:` Manages backend processes without dedicated servers, triggering functions as needed.
+* `Amazon CloudFront:` Acts as the content delivery network, enhancing global content delivery speed and security.
+* `Amazon S3:` Used for secure and scalable storage of files and data.
+* `Amazon SES:` Integrated for email communication capabilities, from transactional to marketing emails.
 
-* AWS provides a robust, scalable cloud environment.
-* Enables cost-effective scaling, only paying for the resources you use.
+### Deployment
+* `AWS Cloud Development Kit (CDK):` Infrastructure defined and deployed using CDK, simplifying the deployment process through Command Line Interface (CLI), even for users with minimal technical background.
 
-#### Heavy Use of AWS Services:
+### Admin Panel
+* `Technologies Used:` Developed with React, TailwindCSS, and Redux Toolkit. React for building the user interface, TailwindCSS for styling, and Redux Toolkit for state management.
+* `User Interface Components:` Includes various components for managing system features and AWS resources.
 
-* Lambda Functions: Allows for serverless computing, meaning you can run code without provisioning or managing servers. This is great for handling various backend processes in a cost-effective and scalable way.
-* CloudFront Distribution: Utilizes AWS CloudFront for content delivery, enhancing the performance and speed of the system, especially for global access.
-* S3 Bucket: Employs Amazon S3 for secure, scalable object storage, useful for storing files, backups, and static content.
-* SES (Simple Email Service): Integrates with SES for sending emails, ensuring reliable and scalable email communication.
-
-#### Simple Deployment Process with CDK:
-
-* Utilizes AWS Cloud Development Kit (CDK) for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
-* The deployment process is simplified, allowing even non-technical users to deploy the entire system via Command Line Interface (CLI). This makes setup and updates more accessible to a wider range of users.
-
-#### Admin Panel Features:
-
-* The system includes a user-friendly Admin Panel for managing both the system's features and certain AWS features.
-* Provides functionalities like setting up custom domain names, viewing system logs, and managing other AWS resources directly from the panel.
-* This level of integration enhances the usability of the system, making it easier for administrators to manage and monitor the platform without needing deep technical knowledge of AWS.
+### Website
+* `Development Framework:` The website is built using Remix with React and styled with TailwindCSS, aiming for performance and responsive design.
