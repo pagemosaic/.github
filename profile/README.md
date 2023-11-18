@@ -41,3 +41,28 @@ Develop platforms for exclusive clubs or communities where memberships grant spe
 * A user-friendly admin panel for efficient management of platform features, from user interactions to content updates.
 #### Dynamic Website Rendering
 * The platform includes a dynamic website that updates content based on inputs in the Admin panel, offering a customizable and interactive user interface.
+
+## A breakdown of the key technical details and their implications
+
+#### AWS Platform for Deployment:
+
+* AWS provides a robust, scalable cloud environment.
+* Enables cost-effective scaling, only paying for the resources you use.
+
+#### Heavy Use of AWS Services:
+
+* Lambda Functions: Allows for serverless computing, meaning you can run code without provisioning or managing servers. This is great for handling various backend processes in a cost-effective and scalable way.
+* CloudFront Distribution: Utilizes AWS CloudFront for content delivery, enhancing the performance and speed of the system, especially for global access.
+* S3 Bucket: Employs Amazon S3 for secure, scalable object storage, useful for storing files, backups, and static content.
+* SES (Simple Email Service): Integrates with SES for sending emails, ensuring reliable and scalable email communication.
+
+#### Simple Deployment Process with CDK:
+
+* Utilizes AWS Cloud Development Kit (CDK) for defining cloud infrastructure in code and provisioning it through AWS CloudFormation.
+* The deployment process is simplified, allowing even non-technical users to deploy the entire system via Command Line Interface (CLI). This makes setup and updates more accessible to a wider range of users.
+
+#### Admin Panel Features:
+
+* The system includes a user-friendly Admin Panel for managing both the system's features and certain AWS features.
+* Provides functionalities like setting up custom domain names, viewing system logs, and managing other AWS resources directly from the panel.
+* This level of integration enhances the usability of the system, making it easier for administrators to manage and monitor the platform without needing deep technical knowledge of AWS.
