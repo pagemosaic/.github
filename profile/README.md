@@ -9,6 +9,8 @@ This project, built and shared publicly, aims to provide an all-in-one solution 
 #### In Active Development: Not Yet Ready for Use
 As of now, Page Mosaic is in a critical phase of its development journey. We are actively working on building and refining the platform's features, developing them step by step. This means that ***the system is not yet ready for practical use***.
 
+Stay updated with our progress [here](https://github.com/orgs/pagemosaic/discussions/categories/announcements).
+
 ## Potential Applications and Use Cases
 
 #### Content Creation and Distribution: 
