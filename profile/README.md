@@ -62,3 +62,9 @@ Develop platforms for exclusive clubs or communities where memberships grant spe
 
 ### Website
 * `Development Framework:` The website is built using Remix with React and styled with TailwindCSS, aiming for performance and responsive design.
+
+---
+
+Follow [Alex Pust](https://twitter.com/alex_pustovalov) on Twitter for updates on the Page Mosaic Web Platform development.
+
+---
