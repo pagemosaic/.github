@@ -40,7 +40,6 @@ As of now, Page Mosaic is in a critical phase of its development journey. We are
 * `AWS Lambda:` Manages backend processes without dedicated servers, triggering functions as needed.
 * `Amazon CloudFront:` Acts as the content delivery network, enhancing global content delivery speed and security.
 * `Amazon S3:` Used for secure and scalable storage of files and data.
-* `Amazon SES:` Integrated for email communication capabilities, from transactional to marketing emails.
 
 ### Deployment
 * `AWS Cloud Development Kit (CDK):` Infrastructure defined and deployed using CDK, simplifying the deployment process through Command Line Interface (CLI), even for users with minimal technical background.
