@@ -3,6 +3,8 @@
 Page Mosaic CMS is an open-source platform optimized for AWS to efficiently host static websites. 
 It simplifies the process of creating, managing, and publishing content online with an emphasis on cost-effectiveness and efficient use of AWS resources.
 
+[The source code](https://github.com/pagemosaic/pagemosaic-cms)
+
 ## Key Features
 ### Core Functionality
 Designed for ease of use, Page Mosaic enables users to host static websites on AWS, leveraging AWS services such as S3 for file storage (images, videos, etc.) and CloudFront for content delivery network (CDN) capabilities. 
