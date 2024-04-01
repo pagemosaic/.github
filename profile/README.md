@@ -5,8 +5,8 @@ It simplifies the process of creating, managing, and publishing content online w
 
 ## Current Stage of Development
 
-#### In Active Development: Not Yet Ready for Use
-As of now, Page Mosaic is in a critical phase of its development journey. We are actively working on building and refining the platform's features, developing them step by step. This means that ***the system is not yet ready for practical use***.
+#### In Active Development
+As of now, Page Mosaic is in a critical phase of its development journey. We are actively working on building and refining the platform's features, developing them step by step.
 
 ## Key Features
 ### Core Functionality
