@@ -1,6 +1,7 @@
 # Welcome to Page Mosaic!
 
-Page Mosaic CMS is a versatile and user-friendly platform for anyone looking to deploy static websites on AWS, offering comprehensive tools for site creation, management, and optimization with minimal hassle and cost.
+Page Mosaic CMS is an open-source platform optimized for AWS to efficiently host static websites. 
+It simplifies the process of creating, managing, and publishing content online with an emphasis on cost-effectiveness and efficient use of AWS resources.
 
 ## Current Stage of Development
 
@@ -8,28 +9,27 @@ Page Mosaic CMS is a versatile and user-friendly platform for anyone looking to 
 As of now, Page Mosaic is in a critical phase of its development journey. We are actively working on building and refining the platform's features, developing them step by step. This means that ***the system is not yet ready for practical use***.
 
 ## Key Features
-### Tailored for AWS: 
-* Designed specifically for hosting static websites on Amazon Web Services, ensuring reliability and speed.
-### Easy Editing: 
-* Modify your website directly through the admin panel, with the ability to edit HTML, CSS, and JavaScript in real time.
-### Dynamic Content Management: 
-* Use input forms to easily update your site content, organizing data with a user-friendly block system.
-### Instant Preview: 
-* See changes as you make them with the ability to preview HTML pages immediately.
-### Custom Domain Support: 
-* Set up your own domain name smoothly, with free SSL certificates to keep your site secure.
-### Efficient File Management: 
-* Upload and manage your files conveniently on AWS S3, accessing them directly through the admin panel.
+### Core Functionality
+Designed for ease of use, Page Mosaic enables users to host static websites on AWS, leveraging AWS services such as S3 for file storage (images, videos, etc.) and CloudFront for content delivery network (CDN) capabilities. 
+It incorporates free SSL for secure connections, provided by AWS, ensuring that custom domains are both secure and easy to set up.
+### Admin Panel: 
+The heart of the CMS is its admin panel, accessible directly via /admin on a user’s browser. This interface allows users to upload and manage files on AWS S3, edit website content in real-time, and configure custom domains. 
+It supports immediate HTML page previews during editing and enables direct modifications of HTML, CSS, and JavaScript within the panel itself.
+### Content Editing: 
+Page Mosaic offers a dynamic approach to content management. 
+Users can modify website pages using input forms that feature a variety of elements, arranged into manageable blocks. 
+These forms are highly configurable, allowing users to specify labels, input types, and other settings. 
+The input data integrates seamlessly with HTML templates through Liquid JS syntax, akin to static site generators like Hugo or Jekyll, facilitating the injection of data into templates.
 ### Static Site Generation: 
-* Benefit from an embedded generator that automatically publishes updated content to AWS CDN, ensuring fast delivery.
-### Flexible Page Creation: 
-* Create as many pages as you need, selecting from templates and adding your content effortlessly.
-### Cost-Effective: 
-* Only pay for the AWS resources you use, avoiding unnecessary expenses.
-### User-Friendly Interface: 
-* Navigate easily through the admin panel, designed with a clear and intuitive file browser-like experience.
-### AWS CDK Integration: 
-* Deploy and manage your resources on AWS seamlessly with the Cloud Development Kit.
+An embedded generator within the admin panel automatically produces and publishes HTML, CSS, and other static files to the AWS CDN. 
+This process includes the creation of essential service files such as sitemap.xml and robots.txt.
+### Deployment and Customization: 
+The system is designed for deployment on a user's AWS account using the AWS Cloud Development Kit (CDK) for resource creation. 
+This setup process requires just a single CLI command, making it straightforward to get started. 
+Users can create unlimited pages, select HTML templates, and add data effortlessly, allowing for extensive customization and scalability.
+### Cost and Efficiency: 
+Page Mosaic prioritizes cost-effectiveness and the efficient use of AWS resources. 
+Users pay only for the resources they consume, with the CMS architecture designed to optimize these costs.
 
 ## Technical Overview
 ### AWS-Based Serverless Architecture
@@ -40,7 +40,6 @@ As of now, Page Mosaic is in a critical phase of its development journey. We are
 * `AWS Lambda:` Manages backend processes without dedicated servers, triggering functions as needed.
 * `Amazon CloudFront:` Acts as the content delivery network, enhancing global content delivery speed and security.
 * `Amazon S3:` Used for secure and scalable storage of files and data.
-* `Amazon SES:` Integrated for email communication capabilities, from transactional to marketing emails.
 
 ### Deployment
 * `AWS Cloud Development Kit (CDK):` Infrastructure defined and deployed using CDK, simplifying the deployment process through Command Line Interface (CLI), even for users with minimal technical background.
